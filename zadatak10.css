@@ -1,0 +1,52 @@
+section {
+    border: 2px solid gray;
+}
+::marker {
+color: red;
+}
+h2::first-letter {
+    color: blue;
+    font-size: 2em;
+}
+.veliki {
+    list-style-type: upper-latin;
+}
+.mali {
+    list-style-type: lower-latin;
+}
+.play {
+    list-style-type: none;
+}
+.play a::before {
+    content: "\2023"; 
+    font-size: 2em;
+    color: red;
+}
+hr {
+    
+  border: 3px dotted red;
+}
+.tocan::after {
+    content: "\2713";
+    color: green;
+    font-weight: bold;
+}
+a:link {
+    color: red;
+
+}
+a:visited {
+    color: magenta;
+}
+a:hover {
+    color: yellow;
+    background-color: lightgreen;
+}
+a:active {
+    background-color: yellow;
+    color: lightgreen;
+}
+::selection {
+    color: white;
+    background-color: darkred;
+}
