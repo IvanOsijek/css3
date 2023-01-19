@@ -1,0 +1,27 @@
+
+.moj-brojac {
+    list-style-type: none;
+    margin-left: 0;
+    padding-right: 0;
+    
+}
+.moj-brojac li::before {
+    content: counter(brojcanik);
+    margin-right: 5px;
+    font-size: 80%;
+    background-color: red;
+    color: blue;
+    font-weight: bold;
+    padding: 3px 8px;
+    border-radius: 5px;
+    
+}
+.moj-brojac li {
+    counter-increment: brojcanik;
+    margin-top: 5px;
+}
+
+.kvacica::after {
+    content: "\2713";
+
+}

@@ -18,7 +18,7 @@ h2::first-letter {
     list-style-type: none;
 }
 .play a::before {
-    content: "\2023"; 
+    content: "\2023 "; 
     font-size: 2em;
     color: red;
 }
@@ -27,7 +27,7 @@ hr {
   border: 3px dotted red;
 }
 .tocan::after {
-    content: "\2713";
+    content: " \2713";
     color: green;
     font-weight: bold;
 }
