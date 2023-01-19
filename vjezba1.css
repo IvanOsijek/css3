@@ -3,6 +3,3 @@ p::after {
     color: red;
     background-color: yellow;
 }
-p::selection, h1::selection {
-    background-color: red;
-}
