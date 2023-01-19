@@ -1,0 +1,15 @@
+::marker {
+            
+    color: red;
+    font-size: 2em;
+}
+.geek1 {
+    list-style-type: circle;
+}
+.geek2 {
+    list-style-type: lower-roman;
+}
+::selection {
+    color: red;
+    background: yellow;
+}

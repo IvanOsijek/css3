@@ -1,3 +1,11 @@
 p::first-line {
     background-color: yellow;
 }
+p::first-letter {
+    color: red;
+    font-size: 2em;
+}
+p::selection {
+    color: rgb(189, 52, 189);
+ 
+    }

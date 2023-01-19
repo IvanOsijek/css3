@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="markerselection.css">
+    <style>
+        ::marker {
+            
+            color: red;
+            font-size: 2em;
+        }
+        .geek1 {
+            list-style-type: circle;
+        }
+        .geek2 {
+            list-style-type: lower-roman;
+        }
+        ::selection {
+            color: red;
+            background: yellow;
+        }
+    </style>
+</head>
+<body>
+    <ul class="geek1">
+        <li>Kava</li>
+        <li>Čaj</li>
+        <li>Mlijeko</li>
+    </ul>
+    <ol class="geek2">
+        <li>Jedan</li>
+        <li>DvA</li>
+        <li>tRi</li>
+    </ol>
+</body>
+</html>
